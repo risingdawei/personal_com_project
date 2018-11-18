@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en, zh">
+<head>
+	<meta charset="utf-8">
+	<title>>Welcome, {{ username }}</title>
+	<!-- 以下将css代码写在html中，适合简单样式 -->
+	<style type="text/css">
+		div{
+			width: 100px;
+			height: 100px;
+			background-color: green;
+		}
+		#only {
+			background-color: red;
+		}
+	</style>
+	<!-- 以下最为常用，将css单独写一个文件 -->
+	<!-- <link rel="stylesheet" type="text/css" href="sign_in.css"> -->
+</head>
+<body>
+	<!-- 超链接 -->
+	<a href="http://www.baidu.com" target="_blank">www.baidu.com</a>
+	<!-- username 是输入的变量，可以跟随输入变化 -->
+	<p>Welcome, {{ username }}!</p>
+	<!-- 图片的引用规则
+		1.网上图片的url资源，例如我写的第一个例子（估计没准能用到）
+		2.本地图片的使用，例如第二个例子(已注释掉。。。)
+	 -->
+	<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1542221564191&di=277c79b58a4e894fa32502afda9bdf24&imgtype=0&src=http%3A%2F%2Fbbs.vivo.com.cn%2Fforum%2FgetPicture%3FfileId%3DwiwNWYCFW9ieGbWq%2F20180719%2F42de1c4aa35676b978168d0067481553.jpeg" style="width: 400px;" alt="志伟对象" title="这是志伟对象">
+	<!-- <img src="timg.jpg" style="width: 400px;" alt="志伟对象" title="这是志伟对象"> -->
+
+	<div id="only">国庆</div>
+
+</body>
+</html>
