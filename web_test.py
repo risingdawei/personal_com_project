@@ -18,7 +18,7 @@ def signin_form():
 def signin():
     username = request.form['username']
     password = request.form['password']
-    if username=='leguoqing' and password=='19931001':
+    if username == 'leguoqing' and password == '19931001':
         return render_template('signin-ok.html', username=username)
     return render_template('form.html', message='Bad username or password', username=username)
 
