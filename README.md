@@ -11,3 +11,7 @@ up today 2018/11/18
 # [MSC v.1500 32 bit (Intel)] 
 # the corresponding compiler version is below: 
 # Visual C++ 2008  (9.0)  ------ MSC_VER=1500
+##############################
+###https://www.cnblogs.com/Erick-L/p/7063173.html
+###https://www.cnblogs.com/huchong/p/8227606.html#_lab2_0_0
+###http://python.jobbole.com/88621/
