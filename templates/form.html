@@ -14,5 +14,10 @@
 		<p><input name="password" placeholder="Password" type="password"></p>
 		<p><button type="submit">Sign In</button></p>
 	</form>
+	<form action="/login" method="post" novalidate="">
+		<p>{{form.name.label}} {{form.name}} {{form.name.errors.0}}</p>
+		<p>{{form.pwd.label}} {{form.pwd}} {{form.pwd.errors.0}}</p>
+		<input type="submit" name="test">
+	</form>
 </body>
 </html>
